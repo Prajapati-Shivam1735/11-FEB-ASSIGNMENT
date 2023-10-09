@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+
+nav img{
+    height: 40px;
+    margin-left: 10%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* text-decoration: none; */
+    letter-spacing: -1px;
+    gap: 30px;
+    margin-left: 38%;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-weight: 550;
+    /* font-size: .9em; */
+    color: black;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    height: 70vh;
+    /* position: relative; */
+    text-align: center;
+}
+
+section h1{
+    margin-bottom: 20px;
+    color: #20BC7E;
+}
+
+section p{
+    width: 42%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.achievement {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.achievementCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.achievementCard span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #20BC7E;
+}
+
+.achievementCard p {
+    font-size: 16px;
+    font-weight: 600;
+}

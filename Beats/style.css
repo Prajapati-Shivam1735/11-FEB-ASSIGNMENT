@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+
+nav img{
+    margin-left: 12%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin-left: 29%;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav button{
+    margin-left: 14%;
+    padding: 8px 30px;
+    border-radius: 8px;
+    background: #1e1e21;
+    border: none;
+}
+
+nav button a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-head{
+    height: 400px;
+    width: 180px;
+    margin-top: -10%;
+    margin-left: 21%;
+}
+
+.onear{
+    width: 350px;
+    transform: translate(80% , -200%);
+}
+
+h1{
+    width: 200px;
+    font-size: 60px;
+    color: white;
+    transform: translate(300% , -190%);
+}
+
+h3{
+    width: 100px;
+    color: #dde1e4;
+    transform: translate(610% , -490%);
+}
+
+.desc{
+    width: 200px;
+    transform: translate(305% , -80%);
+}
+.desc p{
+    color: #bdc0c2;
+}
+
+.shoppingBag{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    background: #1e1e21;
+    border-radius: 8px;
+    padding: 10px 25px;
+    transform: translate(270% , -200%);
+}
+
+.shoppingBag img{
+    width: 17px;
+    background-color: transparent;
+}
+
+.shoppingBag p{
+    color: #bdc0c2;
+}
+
+.shoppingBag span{
+    color: white;
+}
+
+.mid-logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 120px;
+    width: fit-content;
+    transform: translate(30% , -120%);
+}
+
+.mid-logo img{
+    scale: 0.8;
+}
+
+.specs{
+    transform: translate(240% , -280%);
+}
+
+.specsImage{
+    width: fit-content;
+    transform: translate(140% , 60%);
+}
+
+.blue{
+    width: fit-content;
+    transform: translate(540% , -200%);
+}
+
+.blue img{ 
+    scale: 0.8;
+}
+
+.blue p{
+    font-size: 12px;
+    color: #bdc0c2;
+}
+
+.battery{
+    width: fit-content;
+    transform: translate(540% , -160%);
+}
+
+.battery img{ 
+    scale: 0.8;
+}
+
+.battery p{
+    font-size: 12px;
+    color: #bdc0c2;
+}
+
+.charger{
+    width: fit-content;
+    transform: translate(330% , -140%);
+}
+
+.charger img{ 
+    scale: 0.8;
+}
+
+.charger p{
+    font-size: 12px;
+    color: #bdc0c2;
+}
+
+.mic{
+    width: fit-content;
+    transform: translate(250% , -80%);
+}
+
+.mic img{ 
+    scale: 0.8;
+}
+
+.mic p{
+    font-size: 12px;
+    color: #bdc0c2;
+}
+
+.case{
+    transform: translate(280% , -300%);
+}
+
+.caseImage{
+    width: fit-content;
+    height: 300px;
+    transform: translate(60% , 75%);
+}
+
+.case-desc{
+    width: 180px;
+    transform: translate(340%);
+}
+
+.case-desc p{
+    color: #bdc0c2;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 15px;
+    background: #1e1e21;
+    border-radius: 8px;
+    padding: 7px 13px;
+    transform: translate(472% , 60%);
+}
+
+.info img{
+    scale: 0.8;
+    background-color: transparent;
+}
+.info p{
+    color: white;
+}
+
+.buy{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    background: #181a1b;
+    border-radius: 12px;
+    gap: 50px;
+    padding: 30px 30px;
+    transform: translate(20% , 60%);
+}
+
+.buy h4{
+    width: 250px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: -14%;
+    margin-left: 5%;
+}
+
+.buy p{
+    color: #bdc0c2;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: -33%;
+}
+
+.buy button{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background: #000000;
+    border-radius: 8px;
+    padding: 7px 15px;
+    transform: translate(-195% , 160%);
+    border-style: none;
+}
+
+.buy button img{
+    scale: 0.8;
+    background-color: transparent;
+}
+
+.buy button a{
+    color: white;
+    width: 80px;
+    font-size: 14px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+.productLogo{
+    height: 100px;
+    transform: translate(210% , 280%);
+}
+
+.product-card1{
+    /* border: 2px solid white; */
+    display: flex;
+    gap: 7%;
+}
+
+.product{
+    height: 150px;
+    width: 150px;
+    background: #181a1b;
+    border-radius: 10px;
+    position: relative;
+    transform: translate(280% , 250%);
+}
+
+.product img{
+    height: 130px;
+    width: 110px;
+    margin-top: -35%;
+    margin-left: 13%;
+}
+
+.product p{
+    color: #bdc0c2;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 16%;
+}
+
+.product .bag{
+    width: 25px;
+    position: absolute;
+    left: 65%;
+    top: 72%;
+    padding: 12px 3px 3px 3px ;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.product .bag img{
+    height: 70%;
+    width: 70%;
+}
+
+.product-card2{
+    /* border: 2px solid white; */
+    display: flex;
+    gap: 7%;
+    margin-top: 5%;
+}
+
+footer img{
+    transform: translate(500% , 1500%);
+}
+
+footer h3{
+    color: #e6e9ec;
+    transform: translate(310% , 2050%);
+}
+
+footer .products{
+    list-style: none;
+    margin-left: 24%;
+    margin-top: 36%;
+}
+
+footer .products a{
+    color: #bdc0c2;
+    text-decoration: none;
+}
+
+footer h4{
+    color: #e6e9ec;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 39%;
+    margin-top: -8.7%;
+}
+
+footer .supports{
+    list-style: none;
+    margin-left: 39%;
+    margin-top: -5.5%;
+    
+}
+
+footer .supports a{
+    color: #bdc0c2;
+    text-decoration: none;
+}
+
+.subscription{
+    width: fit-content;
+    transform: translate(190% , -230%);
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    border: none;
+    background: #181A1B;
+}
+
+.email input{
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+}
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+
+}
+
+.subscribe-button img{
+    position: relative;
+    scale: 0.8;
+    transform: translate(5% , -15%);
+}
+
+.subscribe-button p{
+    color: white;
+}
+
+footer .arrow-up{
+    position: absolute;
+    margin-left: 78%;
+    margin-top: -53%;
+}
+
+footer .social{
+    margin-top: -44%;
+    margin-left: 42%;
+}
